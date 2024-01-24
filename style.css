@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    font-family: Arial ;
+    border: border-box;
+
+}
+/* this section is for navigation section */
+
+.navbar{
+       height: 80px;
+       background-color: rgb(232, 228, 228);
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+}
+
+/* this is for border hover */
+.border{
+    border: 2px rgb(255, 0, 247) transparent;
+    border-radius: 1px;
+}
+.border:hover{
+    border-bottom: 2px solid rgb(255, 0, 247);
+}
+
+/* this is navigation logo section */
+
+.nav-logo{
+    height: 36px;
+    width: 53px;
+}
+
+.logo{
+    background-image: url(myntra.png);
+    height: 36px;
+    width: 53px;
+    background-size: cover;
+}
+
+/* this is navigation option section */
+
+.nav-option{
+    height: 80px;
+    font-size: 15px;
+    color: #282C3f;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-option-section-2{
+    color: red;
+}
+
+.nav-option-section{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+/* thisis navigation search section */
+
+.nav-search{
+    height: 40px;
+    width: 480px;
+    background-color: #F5F5F6;
+    display: flex;
+    border-radius: 7px;
+}
+
+.nav-search-icon{
+    margin-top: 9px;
+    margin-left: 9px;
+    font-size: 1.2rem;
+    color: #58585c65;
+}
+
+.nav-search-2{
+    background-color: #F5F5F6;
+    width: 480px;
+    margin-left: 5px;
+    border: none;
+}
+
+/* this section id for navigation other options */
+
+.nav-other-option{
+    font-size: 12px;
+    color: #282C3f;
+    font-weight: 700;
+
+}
+
+/* this section is for hero section */
+
+.contenthero{
+    display: flex;
+}
+
+.herosection1{
+    height: 120px;
+    background-image: url(herosection.jpg);
+    background-size: cover;
+}
+
+.herosection2{
+    margin-top: 10px;
+    height: 450px;
+    background-image: url(herosection1.png);
+    background-size: cover;
+}
+
+.herosection-coupne{
+    margin: 20px;
+    height: 120px;
+    background-image: url(coupne.webp);
+    background-size: cover;
+}
+
+/* this is the product section */
+
+.content-product{
+    padding: 10px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product1-section{
+    padding: 10px;
+    height: 230px;
+    width: 250px;
+    background-color: black;
+    border-radius: 3px;
+}
+.product2-section{
+    padding: 10px;
+    height: 230px;
+    width: 250px;
+    background-color: black;
+    border-radius: 3px;
+}
+.product3-section{
+    padding: 10px;
+    height: 230px;
+    width: 250px;
+    background-color: black;
+    border-radius: 3px;
+}
+.product4-section{
+    padding: 10px;
+    height: 230px;
+    width: 250px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+/* this section is the bottom section */
+  
+.bottom-space{
+    height: 30px;
+    background-color: white;
+}
+
+
+
+
